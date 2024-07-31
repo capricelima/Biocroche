@@ -1,0 +1,400 @@
+/*page HOME*/
+/* PHONE VERSION */
+
+      @media (max-width: 768px) {
+
+        .title {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+    
+        .responsive {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .responsive figure {
+            width: 100%;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+        }
+        
+        /* Centralizar o logotipo */
+        .center {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        /* Estilo para os títulos */
+        .title {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 24px;
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .title:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsividade para os títulos */
+        #titles {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        #barr2 {
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        
+        .responsive {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+       
+        }
+        
+        .responsive figure {
+            
+            text-align: center;
+        }
+        
+        .responsive img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 0%;
+            
+        }
+   
+        /* Barra inferior */
+#Barr2 {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+   
+}
+
+#Barr2 h1 {
+    font-size: 15px;
+    flex: 1 1 100%;
+    color: white;
+    align-items: center;
+ 
+}
+
+#Barr2 a {
+   
+    color: white;
+    text-decoration: none;
+   
+}
+
+#Barr2 a:hover {
+    text-decoration: underline;
+}
+
+#barr3 h1
+{
+    font-size: 15px;
+    flex: 1 1 100%;
+    color: white;
+    text-align: center;
+}
+#barr7 h1
+{
+    font-size: 20px;
+    flex: 1 1 100%;
+    color: white;
+    justify-content: center;
+}
+
+
+.responsive #Barr4 {
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.responsive #Barr4 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px; /* Reduzido o espaçamento entre a imagem e o texto */
+}
+
+.responsive #Barr4 p {
+    width: 100%;
+    max-width: 600px; /* Limite máximo de largura para o texto */
+    margin-bottom: 0px;
+    padding: 0px; /* Espaçamento interno do texto */
+    font-size: 20px;
+}
+
+.responsive #Barr6 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.responsive #Barr6 p {
+    width: 100%;
+    max-width: 600px; /* Limite máximo de largura para o texto */
+    margin-bottom: 0px;
+    padding: 0px; /* Espaçamento interno do texto */
+    font-size: 20px;
+}
+
+.responsive #picsline1 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.responsive #picsline1 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px; /* Reduzido o espaçamento entre a imagem e o texto */
+}
+
+.responsive #picsline1 figcaption {
+    width: 100%;
+    max-width: 600px; /* Limite máximo de largura para o texto */
+    margin-bottom: 0px;
+    padding: 0px; /* Espaçamento interno do texto */
+    font-size: 20px;
+
+}
+    
+.responsive #picsline2 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.responsive #picsline2 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px; /* Reduzido o espaçamento entre a imagem e o texto */
+}
+
+.responsive #picsline2 figcaption {
+    width: 100%;
+    max-width: 600px; /* Limite máximo de largura para o texto */
+    margin-bottom: 0px;
+    padding: 0px; /* Espaçamento interno do texto */
+    font-size: 20px;
+
+}
+
+      }
+
+/* Desktop*/  
+  
+.center
+    {
+        display:         flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+#barr
+{
+    background-color: green;
+    padding: 15px;    
+}
+
+#titles
+{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#barr2
+{
+    background-color: green;
+    padding: 15px;
+    text-align: center;
+    h1 {
+        color: white;
+        font-size: 30px;
+        }
+
+    p
+    {
+        color: white;
+        font-size: 20px;
+    }
+}
+
+#picsline1 
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+   
+   figure {
+        margin: 0; /* Remove margens padrão */
+        text-align: center; /* Centraliza o conteúdo das figuras */
+    }
+      
+    figcaption {
+        margin-top: 10px; /* Espaço acima da legenda */
+        font-size: 16px; /* Tamanho da fonte da legenda */
+        color: #555; /* Cor da legenda */
+    }
+}
+
+#picsline2
+{
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+   
+   figure {
+        margin: 0; /* Remove margens padrão */
+        text-align: center; /* Centraliza o conteúdo das figuras */
+    }
+      
+    figcaption {
+        margin-top: 10px; /* Espaço acima da legenda */
+        font-size: 16px; /* Tamanho da fonte da legenda */
+        color: #555; /* Cor da legenda */
+    }
+}
+
+
+#Barr2{
+    background-color: green;
+    padding: 15px;    
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;   
+    gap: 50px;
+
+    img 
+    {
+        align-items: middle;
+    }
+
+    h1
+    {
+        color: white;
+        font-size: 17px;   
+    } 
+}
+
+/*page ABOUT ME*/
+#barr3{
+    background-color: black; 
+    justify-content: center;
+    display: flex;   
+   
+
+    h1
+    {
+        color: white;
+        font-size: 17px;   
+    } 
+}
+
+#Barr4{
+    background-color: white;
+    padding: 15px;    
+    justify-content: left;
+    margin-top: 30px;
+    display: flex;   
+    gap: 50px;
+
+    p
+    {
+        color: black;
+        font-size: 25px;
+        line-height: 1.5;
+        font-style: italic;
+    } 
+}
+
+
+/*page contacts*/
+
+#Barr6{
+    background-color: white;
+    padding: 10px;    
+    text-align: center;
+    
+
+     h1
+    {
+        color: black;
+        font-size: 27px;
+        justify-content: center;
+    } 
+    p
+    {
+        color: black;
+        font-size: 25px;  
+    }
+}
+
+/* page 4 */
+
+#barr7
+{
+    background-color: green;
+    padding: 15px;
+    text-align: center;
+    
+    h1{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+
+    }
+  
+}
+#Barr8{
+    background-color: white;
+    padding: 15px;    
+    justify-content: left;
+    margin-left: 100px;
+    margin-right:100px;
+    display: flex;   
+    gap: 50px;
+
+    p
+    {
+        color: black;
+        font-size: 25px;
+        line-height: 1.5;
+        padding-bottom: 20px;
+    } 
+}
+
