@@ -15,7 +15,7 @@ FileZila was used to deploy the static web site on Azure.
 ## 🚀 Technologies:
 This project was developed with the following technologies:
 
-🖥️ HTML and CSS markup language
+🖥️ HTML markup language and CSS 
 
 🛠️ Filezila to deploy the static website on azure
 
