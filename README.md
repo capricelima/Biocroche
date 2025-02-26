@@ -20,10 +20,10 @@ This project was developed with the following technologies:
 🛠️ Filezila to deploy the static website on azure
 
 ## Clone this repository
-git clone https://github.com/capricelima/Biocroche.git  
+git clone https://github.com/capricelima/Business_Page_HTML_CSS.git  
 
 ## Enter the directory
-cd Biocroche
+cd Business_Page_HTML_CSS
 
 ## 📝 License
 This project is unlicensed and is free to use.
